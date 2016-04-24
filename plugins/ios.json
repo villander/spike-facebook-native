@@ -1,0 +1,43 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "cordova-plugin-facebook4": {
+            "APP_ID": "754199234716729",
+            "APP_NAME": "spike",
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        },
+        "com.telerik.plugins.wkwebview": {
+            "WKWEBVIEW_SERVER_PORT": "12344",
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-webserver": {
+            "PACKAGE_NAME": "com.ionicframework.facebookspike235374"
+        }
+    }
+}
