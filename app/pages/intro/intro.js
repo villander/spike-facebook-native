@@ -1,6 +1,6 @@
 import {Page, NavController, Platform} from 'ionic-angular';
 import {Facebook} from 'ionic-native';
-import {Mano} from '../mano/mano';
+import {ManoPage} from '../mano/mano';
 
 /*
   Generated class for the IntroPage page.
@@ -24,8 +24,7 @@ export class IntroPage {
   login() {
     this.Platform.ready().then(() => {
       Facebook.login(["public_profile", "user_birthday"]).then(() => {
-        this.local.set('logged', true);
-        this.nav.setRoot(Mano);
+        this.nav.setRoot(ManoPage, {}, {directon: 'back'});
       }, (...args) => {
         console.log(args);
       })

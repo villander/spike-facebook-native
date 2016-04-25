@@ -1,4 +1,6 @@
 import {Page, NavController} from 'ionic-angular';
+import {Facebook} from 'ionic-native';
+import {IntroPage} from '../intro/intro';
 
 /*
   Generated class for the ManoPage page.
@@ -16,5 +18,13 @@ export class ManoPage {
 
   constructor(nav) {
     this.nav = nav;
+  }
+
+  logout(){
+    Facebook.logout().then(() => {
+      this.nav.setRoot(IntroPage);
+    }, (...args) => {
+      console.log(args);
+    })
   }
 }
